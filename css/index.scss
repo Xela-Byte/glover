@@ -46,7 +46,7 @@ body {
 
 .get-app-wrapper {
   height: 50vh;
-  border: 2px solid;
+
   width: 23%;
 }
 
@@ -66,7 +66,6 @@ body {
 
 .services {
   width: 60%;
-  border: 2px solid;
 }
 
 .services-text {
@@ -75,12 +74,12 @@ body {
 }
 
 .commodities {
-  border: 2px solid;
 }
 
 .commodity {
+  background: rgb(230, 229, 229);
+  box-shadow: 0 4px 4px -4px gray;
   margin: 5px;
-  border: 2px solid;
   border-radius: 7px;
   padding: 10px;
   width: 35%;
