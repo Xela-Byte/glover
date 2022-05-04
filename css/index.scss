@@ -1,0 +1,110 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: sans-serif;
+}
+
+.container {
+  height: 100vh;
+}
+
+// Top NavBar
+
+.top-nav-bar {
+  height: 10vh;
+  box-shadow: 0 4px 4px -4px gray;
+}
+
+.top-nav-brand {
+  font-weight: 800;
+}
+
+.top-nav-items {
+  margin-left: 70vw;
+}
+
+.top-nav-items a {
+  color: black;
+}
+
+.cart {
+  width: 80px;
+  border-radius: 20px;
+  background: rgb(127, 0, 247);
+}
+.cart a {
+  color: white;
+}
+
+.sections {
+  margin-top: 9%;
+}
+
+.get-app-wrapper {
+  height: 50vh;
+  border: 2px solid;
+  width: 23%;
+}
+
+.get-app-inner img {
+  width: 70%;
+}
+
+.get-app-img {
+  width: 150px;
+}
+
+.get-app-text {
+  font-size: 15px;
+}
+
+// Services Section
+
+.services {
+  width: 60%;
+  border: 2px solid;
+}
+
+.services-text {
+  font-weight: 500;
+  font-size: 25px;
+}
+
+.commodities {
+  border: 2px solid;
+}
+
+.commodity {
+  margin: 5px;
+  border: 2px solid;
+  border-radius: 7px;
+  padding: 10px;
+  width: 35%;
+  height: 15vh;
+}
+
+.commodity-logo {
+  width: 30%;
+}
+
+.commodity-main-text {
+  font-weight: 700;
+  font-size: 15px;
+}
+
+.commodity-desc {
+  font-size: 12px;
+}
+
+@media only screen and (max-width: 768px) {
+  .top-nav-bar {
+    height: 13vh;
+  }
+  .top-nav-items {
+    margin-left: 30vw;
+  }
+}
